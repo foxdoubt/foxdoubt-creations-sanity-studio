@@ -25,6 +25,11 @@ export default defineType({
       },
     }),
     defineField({
+      name: 'podcastEpisodeSlug',
+      title: 'Podcast episode slug',
+      type: 'slug',
+    }),
+    defineField({
       name: 'author',
       title: 'Author',
       type: 'reference',
